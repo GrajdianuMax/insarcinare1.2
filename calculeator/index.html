@@ -1,0 +1,44 @@
+<HTML>
+<HEAD><TITLE></TITLE></HEAD>
+<script language="JavaScript">
+
+ function plus()
+{
+rezultat.value=simbol_1.value-(-1)*simbol_2.value;
+}
+
+function minus()
+{
+rezultat.value=simbol_1.value-simbol_2.value;
+}
+
+ function inm()
+{
+rezultat.value=simbol_1.value*simbol_2.value;
+}
+
+function imp()
+{
+rezultat.value=simbol_1.value/simbol_2.value;
+}
+</script>
+<table border="2">
+<tr>
+<td>
+<input id="simbol_1" size="38">
+</td>
+<td rowspan="3" valign="top">
+<input type="button" value=" + " onclick="plus()">
+<input type="button" value=" - " onclick="minus()">
+<input type="button" value=" * " onclick="inm()">
+<input type="button" value=" / " onclick="imp()"></td>
+</tr>
+<tr>
+<td><input id="simbol_2" size="38"></td>
+</tr>
+<tr>
+<td><input id="rezultat" size="38"></td>
+</tr>
+</table>
+</BODY>
+</HTML>
